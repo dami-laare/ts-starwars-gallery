@@ -97,7 +97,7 @@ function App() {
                     <img
                       src={dataSet[index].image}
                       alt={dataSet[index].name}
-                      className="w-[8rem] h-auto rounded-lg"
+                      className="w-[8rem] h-auto rounded-lg shadow-xl shadow-[#63606065]"
                     />
                   )}
                   <span>
