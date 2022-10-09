@@ -94,10 +94,11 @@ function App() {
                   exit={{ x: -300, opacity: 0 }}
                 >
                   {dataSet[index].image && (
-                    <img
-                      src={dataSet[index].image}
-                      alt={dataSet[index].name}
-                      className="w-[8rem] h-auto rounded-lg shadow-xl shadow-[#63606065]"
+                    <div
+                      style={{
+                        backgroundImage: `url(${dataSet[index].image})`,
+                      }}
+                      className="w-[10rem] h-[10rem] rounded-lg shadow-xl bg-center bg-contain bg-no-repeat bg-transparent"
                     />
                   )}
                   <span>
